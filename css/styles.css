@@ -1,0 +1,86 @@
+/* Styling for the navigation menu */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(9, 167, 240);
+    font-weight: bold;
+}
+
+/* Styling for the banner section */
+#banner {
+    text-align: center;
+    background-size: cover;
+    color: rgb(6, 246, 46);
+    padding: 100px 0;
+}
+
+#banner h1 {
+    font-size: 36px;
+}
+
+#banner p {
+    font-size: 24px;
+}
+
+/* Styling for the contact form */
+#contact {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling for the responsive design */
+@media (max-width: 768px) {
+    /* Add responsive CSS rules here */
+}
